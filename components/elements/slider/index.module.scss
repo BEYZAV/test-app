@@ -1,0 +1,169 @@
+$bc-r: #d53d29;
+$bc-w: #f6f4f5;
+$ct-r: #da5646;
+$ct-w: #ffffff;
+
+.slider {
+    display: flex;
+
+    &__left {
+        width: 62%;
+        background-color: $bc-r;
+        padding: 70px;
+
+        &__title {
+            font-size: 72px;
+            font-weight: 800;
+        }
+
+        &__text {
+            font-size: 20px;
+            margin: 17px 0 17px 0;
+        }
+
+        &__btn {
+            cursor: pointer;
+            font-size: 14px;
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #fff;
+            transition: .7s;
+
+            &:hover {
+                background-color: #f1f1f1;
+                transition: .7s;
+                box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        @media (max-width:1000px) {
+            background-color: $bc-r;
+            padding: 60px;
+
+            &__title {
+                font-size: 50px;
+            }
+
+            &__text {
+                font-size: 18px;
+            }
+
+            &__btn {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width:700px) {
+            background-color: $bc-r;
+            padding: 50px;
+            width: 100%;
+
+            &__title {
+                font-size: 40px;
+            }
+
+            &__text {
+                font-size: 16px;
+            }
+
+            &__btn {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width:500px) {
+            background-color: $bc-r;
+            padding: 40px;
+
+            &__title {
+                font-size: 30px;
+            }
+
+            &__text {
+                font-size: 16px;
+            }
+
+            &__btn {
+                font-size: 12px;
+            }
+
+        }
+    }
+
+    &__right {
+        width: 38%;
+        background-color: $bc-w;
+        padding: 70px;
+
+        &__title {
+            color: $ct-r;
+        }
+
+        &__text {
+            color: $ct-r;
+            font-weight: 800;
+            margin: 17px 0 17px 0;
+        }
+
+        &__price {
+            color: $ct-r;
+        }
+
+        @media (max-width:1000px) {
+            background-color: $bc-w;
+            padding: 60px;
+
+            &__title {
+                color: $ct-r;
+            }
+
+            &__text {
+                color: $ct-r;
+                font-weight: 800;
+            }
+
+            &__price {
+                color: $ct-r;
+            }
+        }
+
+        @media (max-width:700px) {
+            background-color: $bc-w;
+            padding: 50px;
+            width: 100%;
+
+            &__title {
+                color: $ct-r;
+            }
+
+            &__text {
+                color: $ct-r;
+                font-weight: 800;
+            }
+
+            &__price {
+                color: $ct-r;
+            }
+        }
+
+        @media (max-width:500px) {
+            background-color: $bc-w;
+            padding: 40px;
+
+            &__title {
+                color: $ct-r;
+            }
+
+            &__text {
+                color: $ct-r;
+                font-weight: 800;
+            }
+
+            &__price {
+                color: $ct-r;
+            }
+
+        }
+    }
+}

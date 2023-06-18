@@ -1,0 +1,45 @@
+$bc-r: #d53d29;
+$bc-w: #f6f4f5;
+$ct-r: #da5646;
+$ct-w: #ffffff;
+$ct-g: #808080;
+
+.footer__top {
+    padding: 50px 0 15px 0;
+    height: 100%;
+    background-color: $bc-r;
+
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #ffffff97;
+
+        &__container {
+
+            &__title {
+                font-size: 18px;
+                padding-bottom: 20px;
+            }
+
+            &__text {
+                font-size: 14px;
+                padding-bottom: 40px;
+
+            }
+        }
+    }
+
+    &__content {
+
+        padding: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+.footer__bottom {
+    background-color: #33292c;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+}

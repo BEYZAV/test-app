@@ -1,0 +1,21 @@
+$bc-r: #d53d29;
+$bc-w: #f6f4f5;
+$ct-r: #da5646;
+$ct-w: #ffffff;
+$ct-g: #808080;
+
+.header {
+    background: $bc-w;
+    color: #fff;
+    text-align: center;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $bc-w;
+    text-align: center;
+    z-index: 9;
+}
